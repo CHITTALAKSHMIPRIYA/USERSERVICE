@@ -1,0 +1,18 @@
+### Spring properties
+# Service registers under this name
+spring:
+  application:
+    name: UserService
+
+
+# HTTP Server (Tomcat) Port
+server: 
+  port: 8762
+
+# Disable Spring Boot's "Whitelabel" default error page, so we can use our own
+error:
+  whitelabel:
+    enabled: false
+      
+      
+      
